@@ -10,35 +10,84 @@
 		background-size:contain;
 		background-position:center;
 		background-attachment:fixed;
-		padding-top:15%;	
+		padding-top:10%;	
 	}
 	
 	.overlay-text{
-		color:yellow; text-align:center; width:30%;opacity:0.5;z-index:1;margin:auto;margin-top:15%;
+		color:yellow; text-align:center; width:30%;opacity:0.5;z-index:1;margin:auto;margin-top:10%;
 		position:relative;font-family: "Comic Sans MS", cursive, sans-serif;font-size:2em;
 	}
 	
 	.logo{
 		font:bold;
 		font-family: "Comic Sans MS", cursive, sans-serif;
-		font-size:3em;
+		font-size:2em;
 		margin:left;
 	    background-color:#CCFFFF;
 	}
+	
+	/* CSS - Trending Blocks */
+	#trendingBlocks {
+	    width: 100%%;
+	    height: 200px;
+	    border: 1px solid #c3c3c3;
+	    display: -webkit-flex; /* Safari */
+	    display: flex;	
+	}
+
+	#trendingBlocks div {
+	    width: 20%;
+	    height: 85%;
+		margin:1%;
+	}
+	
+	/* Main Menu*/
+	#main-menu {
+	    width: 100%%;
+	    height: 100%;
+    
+	    display: -webkit-flex; /* Safari */
+	    display: flex;
+		text-align:center
+	}
+
+	#main-menu div {
+	    width: 20%;
+	    height: 20%;
 	
   </style>
 </head>
 <body>
 	<div class="logo">Graggle
 	</div>
+	<!-- Main Menu -->
+	<div id="main-menu">
+	  <div></div>
+	  <div style="background-color:coral;border: 1px solid #c3c3c3;"><a href="http://google.com">Dashboard </a></div>
+	  <div style="background-color:lightblue;border: 1px solid #c3c3c3;"><a href="http://google.com">Create my Graggle</a></div>
+	  <div style="background-color:khaki;border: 1px solid #c3c3c3;"><a href="http://google.com">Support</a></div>
+	  <div></div>
+	</div>
     
 	<div class="top-div">
 	 <div class="overlay-text">
-	  	<h> TRENDING GRAGGLES
+	  	<h> GRAGGLE FOR A BETTER LIFE!
 	  	</h>
-  		<p> Display the trending Graggles here!
+  		<p> Create a community for a graggle to save on anything from everyday consumables to a once in a life time pocession <button>Create Graggle</button>
 		</p>
+		
 	</div>
+  </div>
+  <div id="trendingBlocks">
+    <div></div>
+    <div style="background-color:coral;border: 1px solid #c3c3c3;">Trending Graggle1</div>
+    <div style="background-color:lightblue;border: 1px solid #c3c3c3;">Trending Graggle</div>
+    <div style="background-color:khaki;border: 1px solid #c3c3c3;">Trending Graggle</div>
+    <div style="background-color:pink;border: 1px solid #c3c3c3;">Trending Graggle</div>
+    <div></div>
+  </div>
+  <div>
+
   </div>
   
   <div style="display:block;">
